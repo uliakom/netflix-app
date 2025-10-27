@@ -1,19 +1,18 @@
-
-import './App.css'
-import  Header  from './assets/components/Header'
-import  Hero  from './assets/components/Hero'
-import  MovieList  from './assets/components/MovieList'
+import "./App.css";
+import Header from "./assets/components/Header";
+import Hero from "./assets/components/Hero";
+import TrendingNow from "./assets/components/TrendingNow";
 
 function App() {
-  
-
   return (
-    <div>
-      <Header />
-      <Hero />
-      <MovieList/>
-    </div>
-  )
+    <main>
+      <div className="">
+        <Header />
+        <Hero />
+        <TrendingNow />
+      </div>
+    </main>
+  );
 }
 
-export default App
+export default App;

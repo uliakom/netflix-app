@@ -1,9 +1,9 @@
 const Header = () => {
   return (
-    <header className="fixed top-0 left-0 w-full z-50 transition-all duration-500 bg-linear-to-b from-black to-transparent">
+    <header className=" fixed top-0 left-0 w-full z-50 py-4 transition-all duration-500 bg-linear-to-b from-black to-transparent">
       <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center">
-          <img src="/logo.png" alt="Netflix Logo" className="w-40 h-auto" />
+          <img src="/logo.png" alt="Netflix Logo" className="w-20 sm:w-30 md:w-40 h-auto" />
         </div>
 
         <div className="flex items-center space-x-4">
